@@ -1,0 +1,31 @@
+Token name: CyphrCoinX
+
+Token ticker: CYFX
+
+Token decimals: 18
+
+Multisig wallet address: 0xd0ddc9a5ad88785910a6cff55ee21caeee72d7b8
+
+*****************************
+
+Crowdsale rate: 8000
+
+Crowdsale start time: 2018-09-19T14:00 (GMT + 1)
+
+Crowdsale end time: 2018-10-31T23:59 (GMT + 1)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+SafeMathLib library name: SafeMathLibExt
+
+SafeMathLib library address: 0x756e3600EC103705CC041578F9b20119b386C45F
+
+*****************************
+
+****SafeMathLib contract ABI:**** 
+
+[{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"times","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"plus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"divides","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"minus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}]
