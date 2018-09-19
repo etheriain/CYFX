@@ -1,0 +1,35 @@
+Token name: CyphrCoinX
+
+Token ticker: CYFX
+
+Token decimals: 18
+
+Multisig wallet address: 0xd0ddc9a5ad88785910a6cff55ee21caeee72d7b8
+
+*****************************
+
+Crowdsale rate: 8000
+
+Crowdsale start time: 2018-09-19T14:00 (GMT + 1)
+
+Crowdsale end time: 2018-10-31T23:59 (GMT + 1)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Pricing strategy contract name: FlatPricingExt
+
+Pricing strategy contract address for Tier 1: 0x19Ea5897AAe3bA7cb3c4464892486d8715e6d12B
+
+*****************************
+
+****Pricing strategy contract ABI:**** 
+
+[{"constant":true,"inputs":[],"name":"isPricingStrategy","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"tier","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"value","type":"uint256"},{"name":"weiRaised","type":"uint256"},{"name":"tokensSold","type":"uint256"},{"name":"msgSender","type":"address"},{"name":"decimals","type":"uint256"}],"name":"calculatePrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_tier","type":"address"}],"name":"setTier","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newOneTokenInWei","type":"uint256"}],"name":"updateRate","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"oneTokenInWei","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"crowdsale","type":"address"}],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"purchaser","type":"address"}],"name":"isPresalePurchase","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"inputs":[{"name":"_oneTokenInWei","type":"uint256"}],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"newOneTokenInWei","type":"uint256"}],"name":"RateChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"}]
+
+****Pricing strategy contract ABI encoded constructor arguments for Tier 1:**** 
+
+000000000000000000000000000000000000000000000000000071afd498d000
